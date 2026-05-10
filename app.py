@@ -4,9 +4,16 @@ import streamlit as st
 st.set_page_config(page_title="Srinivas Tanakala | AI Portfolio", layout="wide", page_icon="🚀")
 
 # Header Section
-st.title("🚀 Appala Srinivas Tanakala")
-st.subheader("20+ Years Finance & Ops Expertise | 4+ Years AI & Data Science")
-st.markdown("📍 **Visakhapatnam, India** | [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)")
+col_head1, col_head2 = st.columns([1, 4])
+
+with col_head1:
+    st.image("https://github.com", width=180)
+
+with col_head2:
+    st.title("Appala Srinivas Tanakala")
+    st.subheader("20+ Years Finance & Ops Expertise | 4+ Years AI & Data Science")
+    st.markdown("📍 Visakhapatnam, India | [LinkedIn](https://www.linkedin.com/in/srinivas-t-a-557637119/) | [GitHub](https://github.com/srinivasta)")
+    st.write("📧 tasrinivass@gmail.com")
 
 st.write("---")
 
@@ -41,10 +48,10 @@ st.write("---")
 st.header("🏆 Key Achievements")
 acc1, acc2 = st.columns(2)
 with acc1:
-    st.write("🥇 **Kaggle Bronze Medal:** Santa 2024 Puzzle Challenge")
-    st.write("🥇 **Kaggle Bronze Medal:** Predict Podcast Listening Time")
+    st.write("🥇 Kaggle Bronze Medal: Santa 2024 Puzzle Challenge")
+    st.write("🥇 Kaggle Bronze Medal: Predict Podcast Listening Time")
 with acc2:
-    st.write("🛰️ **ISRO Certified:** AI/ML for Geodata Analysis")
-    st.write("🧠 **ExcelR:** Data Science & AI Masterclass")
+    st.write("🛰️ ISRO Certified: AI/ML for Geodata Analysis")
+    st.write("🧠 ExcelR: Data Science & AI Masterclass")
 
-st.info("💡 **Recruiter Tip:** These apps are live deployments. Click any button to interact with the models and data engines immediately.")
+st.info("💡 Recruiter Tip: These apps are live deployments. Click any button to interact with the models and data engines immediately.")
