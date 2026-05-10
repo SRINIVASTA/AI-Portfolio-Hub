@@ -5,7 +5,7 @@ st.set_page_config(page_title="Srinivas Tanakala | AI Portfolio", layout="wide",
 
 # Header Section
 st.title("🚀 Appala Srinivas Tanakala")
-st.subheader("20+ Years Finance & Ops Expertise | 3+ Years AI & Data Science")
+st.subheader("20+ Years Finance & Ops Expertise | 4+ Years AI & Data Science")
 st.markdown("📍 **Visakhapatnam, India** | [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)")
 
 st.write("---")
